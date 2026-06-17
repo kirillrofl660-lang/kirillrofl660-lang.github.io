@@ -1,11 +1,11 @@
 import { createSystem, defaultConfig, defineConfig } from '@chakra-ui/react'
 
-// Палитра бренда:
-// #FDE0B8 — кремово-персиковый (светлый фон)
-// #FC9A64 — коралл/оранж (акцент)
-// #C17C75 — терракота
-// #7B515F — сливовый мов
-// #23131E — тёмный сливовый (почти чёрный)
+// Палитра бренда («фейерверк»):
+// #030408 — глубокий чёрный (фон/текст)
+// #620125 — насыщенный бордово-красный
+// #E51F50 — яркий малиновый (акцент)
+// #DF594B — тёплый кораллово-красный
+// #F5B9A9 — нежный персиковый (светлый фон)
 
 const config = defineConfig({
   globalCss: {
@@ -35,66 +35,66 @@ const config = defineConfig({
       },
       colors: {
         graphite: {
-          50: { value: '#f8f3f5' },
-          100: { value: '#efe2e8' },
-          200: { value: '#dcc6d0' },
-          300: { value: '#c2a1b0' },
-          400: { value: '#9d7383' },
-          500: { value: '#7b515f' },
-          600: { value: '#5e3c49' },
-          700: { value: '#432a35' },
-          800: { value: '#311e27' },
-          900: { value: '#23131e' },
-          950: { value: '#160b12' },
+          50: { value: '#f9f3f4' },
+          100: { value: '#f2e1e5' },
+          200: { value: '#e3c0c9' },
+          300: { value: '#cd91a1' },
+          400: { value: '#a8556a' },
+          500: { value: '#7e2d44' },
+          600: { value: '#620125' },
+          700: { value: '#44011a' },
+          800: { value: '#260210' },
+          900: { value: '#100109' },
+          950: { value: '#030408' },
         },
         bronze: {
-          50: { value: '#fff5ec' },
-          100: { value: '#ffe6d0' },
-          200: { value: '#fed1a9' },
-          300: { value: '#febd83' },
-          400: { value: '#fc9a64' },
-          500: { value: '#f47c3e' },
-          600: { value: '#d8612a' },
-          700: { value: '#b14a20' },
-          800: { value: '#8a391b' },
-          900: { value: '#5f2814' },
-          950: { value: '#38160b' },
+          50: { value: '#fff1ee' },
+          100: { value: '#ffdfd8' },
+          200: { value: '#fbbfb3' },
+          300: { value: '#f5b9a9' },
+          400: { value: '#df594b' },
+          500: { value: '#e51f50' },
+          600: { value: '#c10f3f' },
+          700: { value: '#9a0d34' },
+          800: { value: '#6f0a26' },
+          900: { value: '#4a0719' },
+          950: { value: '#2a040e' },
         },
         taupe: {
-          50: { value: '#f8f1f0' },
-          100: { value: '#f0e0dd' },
-          200: { value: '#e3c6c1' },
-          300: { value: '#d2a39c' },
-          400: { value: '#c17c75' },
-          500: { value: '#a8645e' },
-          600: { value: '#874e4a' },
-          700: { value: '#693d3a' },
-          800: { value: '#4c2d2b' },
-          900: { value: '#321e1d' },
+          50: { value: '#fff3f0' },
+          100: { value: '#ffe2db' },
+          200: { value: '#fcc7bd' },
+          300: { value: '#f3a597' },
+          400: { value: '#df594b' },
+          500: { value: '#c8413a' },
+          600: { value: '#a8302f' },
+          700: { value: '#842727' },
+          800: { value: '#5f1d1e' },
+          900: { value: '#3f1516' },
         },
         sand: {
-          50: { value: '#fff8ee' },
-          100: { value: '#fdedd6' },
-          200: { value: '#fde0b8' },
-          300: { value: '#f6cf9e' },
-          400: { value: '#e9b277' },
-          500: { value: '#d59456' },
-          600: { value: '#b5763f' },
-          700: { value: '#8f5c33' },
-          800: { value: '#6b4528' },
-          900: { value: '#47301d' },
+          50: { value: '#fff6f1' },
+          100: { value: '#ffe9df' },
+          200: { value: '#f5b9a9' },
+          300: { value: '#f0a18d' },
+          400: { value: '#e6826d' },
+          500: { value: '#df594b' },
+          600: { value: '#c8413a' },
+          700: { value: '#9e3030' },
+          800: { value: '#742525' },
+          900: { value: '#4d1a1a' },
         },
       },
     },
     semanticTokens: {
       colors: {
         brand: {
-          solid: { value: '{colors.bronze.400}' },
-          contrast: { value: '{colors.graphite.900}' },
+          solid: { value: '{colors.bronze.500}' },
+          contrast: { value: '{colors.sand.50}' },
           fg: { value: '{colors.bronze.700}' },
           muted: { value: '{colors.bronze.100}' },
           subtle: { value: '{colors.bronze.50}' },
-          emphasized: { value: '{colors.bronze.500}' },
+          emphasized: { value: '{colors.bronze.600}' },
           focusRing: { value: '{colors.bronze.500}' },
         },
       },

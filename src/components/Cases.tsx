@@ -7,25 +7,25 @@ const cases = [
     title: 'Aurum Coffee',
     category: 'Интернет-магазин',
     result: '+180% к онлайн-продажам',
-    gradient: 'linear-gradient(135deg, #7B515F, #23131E)',
+    gradient: 'linear-gradient(135deg, #620125, #030408)',
   },
   {
     title: 'Nordic Estate',
     category: 'Корпоративный сайт',
     result: '×3 заявок с сайта',
-    gradient: 'linear-gradient(135deg, #C17C75, #23131E)',
+    gradient: 'linear-gradient(135deg, #E51F50, #620125)',
   },
   {
     title: 'Pulse Fitness',
     category: 'Лендинг + CRM',
     result: 'Конверсия 9,4%',
-    gradient: 'linear-gradient(135deg, #FC9A64, #23131E)',
+    gradient: 'linear-gradient(135deg, #DF594B, #030408)',
   },
   {
     title: 'Verde Market',
     category: 'Веб-приложение',
     result: '40k активных пользователей',
-    gradient: 'linear-gradient(135deg, #7B515F, #C17C75)',
+    gradient: 'linear-gradient(135deg, #620125, #E51F50)',
   },
 ]
 
